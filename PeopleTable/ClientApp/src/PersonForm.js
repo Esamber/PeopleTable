@@ -12,7 +12,7 @@ class PersonForm extends React.Component {
                 <input type="text" className="form-control" value={this.props.person.lastName} onChange={this.props.onLastNameChange} placeholder="Last Name"/>
             </div>
             <div className="col-md-3">
-                <input type="text" className="form-control" value={this.props.person.age} onChange={this.props.onAgeChange} placeholder="Age"/>
+                <input type="number" className="form-control" value={this.props.person.age} onChange={this.props.onAgeChange} placeholder="Age"/>
             </div>
             <div className="col-md-1">
                 <button className="btn btn-primary" onClick={this.props.onAddClick}>Add</button>

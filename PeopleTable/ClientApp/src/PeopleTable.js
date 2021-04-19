@@ -6,7 +6,7 @@ import PersonForm from './PersonForm'
 class PeopleTable extends React.Component {
 
     state = {
-        person: { firstName: '', lastName: '', age: '' },
+        person: { firstName: '', lastName: '', age: 0 },
         people: []
     }
 
